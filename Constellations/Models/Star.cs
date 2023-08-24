@@ -13,12 +13,13 @@ namespace Constellations.Models
         public int SpectralClassificationId { get; set; }
         public SpectralClassification SpectralClassification { get; set; }
         public int EvolutionaryStageId { get; set; }
-        public EvolutionaryStage EvolutionaryStage { get; set; }
-        public float TemperatureKelvin { get; set; }
-        public float AbsoluteMagnitude { get; set; }
-        public float ApparentMagnitude { get; set; }
-        public float SolarMass { get; set; }
-        public float AgeMillionYrs { get; set; }
-        public float Luminosity { get; set; }
+        public StarEvolutionaryStage EvolutionaryStage { get; set; }
+        public double SurfaceTemperatureKelvin { get; set; }
+        public double AbsoluteMagnitude { get; set; }
+        public double ApparentMagnitude { get; set; }
+        public double SolarMass { get; set; }
+        public double AgeMillionYrs { get; set; }
+        public double Luminosity { get; set; }
+        public double ApproximateDistanceFromEarthLightYrs { get; set; }    
     }
 }
